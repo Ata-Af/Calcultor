@@ -1,0 +1,156 @@
+body {margin: 0px}
+
+/*___________________________________Entire Body____________________________________________*/
+
+.body {
+	width: 200px;
+	height: 420px;
+
+	margin: 100px;
+
+	border: 5px solid grey;
+	border-radius: 10px;
+}
+/*___________________________________Display____________________________________________*/
+
+.display {
+
+	margin: 10px;
+
+	border: 2px solid grey;
+	border-radius: 5px;
+
+	height: 60px;
+
+	position: relative;
+}
+
+.func {
+
+	position: absolute;
+
+	top: 2px;
+	right: 2px;
+	left: 2px;
+
+	height: 20px;
+
+	font-size: 17px;
+}
+.answer {
+
+	position: absolute;
+
+	bottom: 2px ;
+	right: 2px;
+	left: 2px;
+
+	height: 20px;
+
+	resize: none;
+	overflow: hidden;
+
+	direction: rtl;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*_____________________________________Top Buttons__________________________________________*/
+
+.topButtons {
+
+	margin: 20px 10px 10px 10px;
+
+	position: relative center;
+
+	display: grid;
+
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.topB {
+	width: 40px;
+	height: 30px;
+
+	justify-self: center;
+	align-self: center;
+}
+
+.on_off {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.c_ce {
+
+	padding: 0px;
+	margin: 0px 2px 0px 3px;
+}
+
+/*______________________________________Functions_________________________________________*/
+
+.functions {
+
+	margin: 20px 10px 10px 10px;
+	position: relative center;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+}
+
+.funcB {
+	width: 40px;
+	height: 30px;
+
+	justify-self: center;
+	align-self: center;
+}
+
+/*______________________________________Number Buttons_________________________________________*/
+
+.numButtons {
+
+
+	margin: 20px 10px 10px 10px;
+
+	position: relative center;
+
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+
+}
+
+.numB {
+	width: 50px;
+	height: 40px;
+
+	justify-self: center;
+	align-self: center;
+}
+
+.numBequal {
+	margin-left: 5px;
+	margin-right: 5px;
+	grid-column: 2/4;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	background-color: #eb9b2e;
+}
+
+/*______________________________________Designer info_________________________________________*/
+
+#disigner {
+	position: relative
+	 bottom;
+}
+
+p {
+	text-align: center;
+	font-size: 10px;
+}
+span {
+	color: grey;
+}
